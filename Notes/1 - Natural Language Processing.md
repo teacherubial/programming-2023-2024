@@ -41,3 +41,4 @@ favourite_food = input("What is your favourite food? ")
 `=` -> **assignment** operator  
 `input...` -> value 
 # [[Strings]]
+
