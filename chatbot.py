@@ -13,4 +13,7 @@ user_name = input("So... what's your name? ")
 print(f"It's nice to meet you, {user_name}!")
 
 # Ask the user what their favourite food is
+fave_food = input("What's your favourite food? ")
+
 # Respond with something appropriate
+print("Mmmmmmm. That sounds great!")
