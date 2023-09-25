@@ -42,3 +42,4 @@ favourite_food = input("What is your favourite food? ")
 `input...` -> value 
 # [[Strings]]
 
+# [[Design]]
