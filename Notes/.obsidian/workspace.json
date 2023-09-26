@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Natural Language Processing.md",
+                "file": "Modules.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "2ad81040036c4a7d",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1 - Natural Language Processing.md",
+                "file": "Modules.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1 - Natural Language Processing.md",
+                "file": "Modules.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - Natural Language Processing.md"
+                "file": "Modules.md"
               }
             }
           },
@@ -159,8 +159,10 @@
   },
   "active": "e4a49fd9db3571c0",
   "lastOpenFiles": [
-    "Design.md",
     "1 - Natural Language Processing.md",
+    "Modules.md",
+    "Lists.md",
+    "Design.md",
     "Strings.md",
     "Headers.md",
     "Markdown (Re)Introduction.md",
