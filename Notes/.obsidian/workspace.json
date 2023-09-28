@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Modules.md",
+                "file": "Conditionals.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Modules.md",
+                "file": "Conditionals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Modules.md",
+                "file": "Conditionals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Modules.md"
+                "file": "Conditionals.md"
               }
             }
           },
@@ -159,13 +159,16 @@
   },
   "active": "e4a49fd9db3571c0",
   "lastOpenFiles": [
-    "Lists.md",
     "1 - Natural Language Processing.md",
     "Modules.md",
-    "Design.md",
+    "Lists.md",
+    "Conditionals.md",
+    "Boolean.md",
     "Strings.md",
     "Headers.md",
+    "Design.md",
     "Markdown (Re)Introduction.md",
+    "Boolean expression.md",
     "().md"
   ]
 }

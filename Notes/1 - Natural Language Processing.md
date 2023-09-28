@@ -47,3 +47,7 @@ favourite_food = input("What is your favourite food? ")
 # [[Lists]]
 
 # [[Modules]]
+
+# [[Conditionals]]
+
+# [[Boolean]]
