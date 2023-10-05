@@ -13,13 +13,39 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Conditionals.md",
+                "file": "Iteration.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e7dcb0698a6dcfc2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Errors.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "618afb384e1f263d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Strings.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2,
+        "stacked": true
       }
     ],
     "direction": "vertical"
@@ -85,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Conditionals.md",
+                "file": "Strings.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Conditionals.md",
+                "file": "Strings.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Conditionals.md"
+                "file": "Strings.md"
               }
             }
           },
@@ -157,17 +183,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e4a49fd9db3571c0",
+  "active": "618afb384e1f263d",
   "lastOpenFiles": [
+    "Errors.md",
+    "Strings.md",
+    "Iteration.md",
+    "Markdown (Re)Introduction.md",
+    "Design.md",
+    "Conditionals.md",
+    "Boolean.md",
     "1 - Natural Language Processing.md",
     "Modules.md",
     "Lists.md",
-    "Conditionals.md",
-    "Boolean.md",
-    "Strings.md",
     "Headers.md",
-    "Design.md",
-    "Markdown (Re)Introduction.md",
     "Boolean expression.md",
     "().md"
   ]
