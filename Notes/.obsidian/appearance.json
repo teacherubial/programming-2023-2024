@@ -1,8 +1,9 @@
 {
-  "accentColor": "#43c7b7",
+  "accentColor": "#58bbaf",
   "theme": "moonstone",
   "interfaceFontFamily": "Bierstadt",
   "baseFontSize": 19,
   "textFontFamily": "Bierstadt",
-  "monospaceFontFamily": "Fira Code"
+  "monospaceFontFamily": "",
+  "cssTheme": "Minimal"
 }

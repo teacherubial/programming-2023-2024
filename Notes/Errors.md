@@ -28,6 +28,7 @@ else:
 The problem with the code above is subtle. What I (Mr. Ubial) mean
 is that EVERY ANSWER OF YES should go into the YES block.
 
+One way to solve this problem is to use [[Strings#String Methods|string methods]].
 We can use `.lower()` to fix this error.
 
 ```python
