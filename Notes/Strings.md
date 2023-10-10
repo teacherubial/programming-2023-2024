@@ -9,7 +9,7 @@ print(f"Ooooooo, {fave_food} sounds good!")
 
 # String Methods
 
-[[Methods]] are functions that we can use on [[Objects]].
+[[Objects#Methods|Methods]] are functions that we can use on [[Objects]].
 
 String methods allow us to modify and work with strings.
 
