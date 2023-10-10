@@ -3,7 +3,7 @@
   "theme": "moonstone",
   "interfaceFontFamily": "Bierstadt",
   "baseFontSize": 19,
-  "textFontFamily": "Bierstadt",
+  "textFontFamily": "",
   "monospaceFontFamily": "",
-  "cssTheme": "Minimal"
+  "cssTheme": ""
 }

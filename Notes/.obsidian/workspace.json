@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "fea638e1ac9aa9b5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Strings.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -99,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Strings.md",
+                "file": "Errors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Strings.md",
+                "file": "Errors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Strings.md"
+                "file": "Errors.md"
               }
             }
           },
@@ -171,12 +158,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fea638e1ac9aa9b5",
+  "active": "e7dcb0698a6dcfc2",
   "lastOpenFiles": [
-    "Errors.md",
     "Iteration.md",
-    "Design.md",
+    "List.md",
     "Strings.md",
+    "Errors.md",
+    "Design.md",
     "Markdown (Re)Introduction.md",
     "Conditionals.md",
     "Boolean.md",

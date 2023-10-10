@@ -20,7 +20,10 @@ time.sleep(1)
 # If they answer with an Italian dish
 # Suggest an Italian restaurant
 # List all the Italian dishes
+# Add one more cuisine/type/etc.
+# Test it to see if it works
 italian_food = ["pizza", "pasta", "canneloni", "tiramisu"]
+western_food = ["burgers", "frieds", "hot dogs"]
 
 if fave_food.lower().strip(",.?! ") in italian_food:
     print("I think that you might like Italian food. 🍝")
@@ -29,6 +32,14 @@ if fave_food.lower().strip(",.?! ") in italian_food:
     time.sleep(1)
     print("You can find the address below:")
     print("8368 Alexandra Rd, Richmond")
+elif fave_food.lower().strip(",.?! ") in western_food:
+    print("I think that you like western food.")
+    time.sleep(1)
+    print("I suggest White Spot.")
+    time.sleep(1)
+    print("Here's their address:")
+    print("6551 No. 3 Rd #1902, Richmond")
+    print("It's in Richmond Centre.")
 else:
     print("Sorry. I don't recognize your favourite food.")
     print("My algorithm is still being worked on.")
