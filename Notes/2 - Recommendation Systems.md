@@ -30,3 +30,20 @@ This paradigm provides more granular information.
 Buyers are asked to rate the product on a 5-point
 scale. All the ratings are put together and an
 aggregate score is given out of five stars.
+
+## Similarity Score
+
+Amazon, Meta, TikTok, Netflix all use Similarity scores to help drive
+and keep users on their platforms.
+
+> Example  
+> Amazon
+> 
+> Ubial likes ["nintendo switch", "usb pd chargers", "4k blu ray movies"]  
+> Ben likes ["nintendo switch", "usb pd chargers", "lego"]  
+> Fido likes ["lego", "chew toys", "fuzzy slippers"]  
+
+Similarity scores indicate how similar two people are to each other.  
+Ben and Ubial have a similarity score of 2 (they like two things that
+are the same.) Ubial and Fido have a similarity score of 0. Ben and
+Fido have a similarity score of 1.
