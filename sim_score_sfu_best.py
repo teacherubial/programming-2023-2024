@@ -23,6 +23,10 @@ profile = [
     "Steve's Poke Bar"
 ]
 
+# Initialize top score and their name
+most_similar_score = 0
+most_similar_name = ""
+
 with open("./data.csv") as f:
     # Throw away the header
     header = f.readline()
@@ -44,4 +48,12 @@ with open("./data.csv") as f:
         
         # Print the results from this line of data
         print(f"{current_name} - Score: {current_sim_score}")
+
+        # Update the most similar person
+        if current_sim_score > most_similar_score:
+            most_similar_score = current_sim_score
+            most_similar_name = current_name
+
+print("🏅🏅🏅🏅 Most similar person! 🏅🏅🏅🏅")
+print(f"{most_similar_name} - Score: {most_similar_score}")
 
