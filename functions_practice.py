@@ -31,6 +31,15 @@ def area_of_a_square(sidelength: float) -> float:
     return area
 
 
+def stars(num_stars: int) -> str:
+    """"""
+
+    return
+
+
+stars(2)  #   **
+stars(10)  #   **********
+
 print_area_of_a_square(12.2)
 print_area_of_a_square(13)
 # sum_areas = area_of_a_square(12.2) + area_of_a_square(13)
