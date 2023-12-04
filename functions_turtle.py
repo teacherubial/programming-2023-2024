@@ -54,7 +54,17 @@ def draw_tree(level: int, height: int) -> None:
         original_colour = alfred_river_wilson.color()
         alfred_river_wilson.color("green")
         alfred_river_wilson.stamp()
-        alfred_river_wilson.color(original_colour)
+        alfred_river_wilson.color(original_colour[0])
 
+
+# Setting ARWilson to draw the tree
+# alfred_river_wilson.hideturtle()
+alfred_river_wilson.setheading(90)
+alfred_river_wilson.width(4)
+alfred_river_wilson.color("brown")
+alfred_river_wilson.shape("arrow")
+alfred_river_wilson.speed(3)
+
+draw_tree(10, 150)
 
 turtle.done()
