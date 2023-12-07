@@ -130,3 +130,36 @@ def pyramid_mirror(num_layers: int) -> None:
 pyramid_mirror(2)
 pyramid_mirror(3)
 pyramid_mirror(20)
+
+
+def linear_search(l: list, item: any) -> int:
+    """Search through a list and if found,
+    returns the index of the first occurence
+    of the item.
+
+    Params:
+            l - list we're search through
+            item - item we're looking for
+
+    Returns:
+            index if found, -1 if not found
+    """
+    counter = 0
+
+    # search algorithm
+    for thing in l:
+        if thing == item:
+            return counter
+        counter += 1
+
+    return -1
+
+
+pockets = ["coins", "lint", "paperclip", "keys", "wallet"]
+
+results = linear_search(pockets, "keys")
+
+if results == -1:
+    print("Your keys are not in your pockets")
+else:
+    print(f"Found your keys! They're in the {results}th index.")
