@@ -30,6 +30,7 @@ with Image.open("./Images/kid-green.jpg") as im:
     image_width = im.width
 
     # open background image
+    bg_im = Image.open("./Images/beach.jpg")
 
     # starting at the top and working our way down
     # visit the pixels from left to right
@@ -37,4 +38,13 @@ with Image.open("./Images/kid-green.jpg") as im:
         for x in range(image_width):
             pixel = im.getpixel((x, y))
 
-            print(pixel_to_name(pixel))
+            if pixel_to_name(pixel) == "green":
+                # replace it with bg_im pixel in same loc
+                bg_pixel = bg_im.getpixel((x, y))
+
+                im.putpixel((x, y), bg_pixel)
+
+    bg_im.close()
+
+    # Save image
+    im.save("./Images/output.jpg")
