@@ -17,7 +17,7 @@ def pixel_to_name(pixel: tuple) -> str:
     """
     red, green, blue = pixel
 
-    if red < 25 and blue < 25 and green > 249:
+    if red < 200 and blue < 200 and green > 220:
         return "green"
     else:
         return "colour unknown"
@@ -46,5 +46,4 @@ with Image.open("./Images/kid-green.jpg") as im:
 
     bg_im.close()
 
-    # Save image
     im.save("./Images/output.jpg")
